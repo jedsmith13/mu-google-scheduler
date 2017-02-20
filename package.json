@@ -1,0 +1,29 @@
+{
+  "name": "mu-google-scheduler",
+  "version": "1.0.0",
+  "description": "A microservice for connecting to google scheduler to allow adding schedules.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedsmithobd/mu-google-scheduler.git"
+  },
+  "keywords": [
+    "microservice",
+    "scheduler",
+    "calendar"
+  ],
+  "author": "Jedediah Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jedsmithobd/mu-google-scheduler/issues"
+  },
+  "homepage": "https://github.com/jedsmithobd/mu-google-scheduler#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^16.1.0"
+  }
+}
